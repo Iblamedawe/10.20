@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Futási Napló</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Futási Napló</h1>
+    </header>
+
+  <form id="runForm">
+    <label>Időtartam (perc): <input type="number" id="duration" required></label>
+    <label>Távolság (km): <input type="number" id="distance" step="0.1" required></label>
+    <label>Súly (kg): <input type="number" id="weight" step="0.1" required></label>
+    <button type="submit">Futás mentése</button>
+  </form>
+
+  <h2>Futások</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dátum</th>
+        <th>Időtartam (perc)</th>
+        <th>Távolság (km)</th>
+        <th>Sebesség (km/h)</th>
+        <th>Kalória (kcal)</th>
+        <th>Művelet</th>
+      </tr>
+    </thead>
+    <tbody id="runTable"></tbody>
+  </table>
+</body>
+</html>

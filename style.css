@@ -1,0 +1,42 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #fafafa;
+}
+header{
+    background-color: green;
+    color: white;
+}
+
+    h1 {
+      text-align: center;
+    }
+    form, .stats, .goal {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+    label {
+      display: block;
+      margin-top: 8px;
+    }
+    input, button {
+      padding: 5px;
+      margin-top: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    thead>tr{
+        background-color: #d6d6d6;
+    }
+    th, td {
+      border: 1px solid #b1b1b1;
+      padding: 5px;
+      text-align: center;
+    }
+    button {
+      cursor: pointer;
+    }
